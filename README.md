@@ -47,6 +47,23 @@ For the moment, only [TravisCiBuildStrategy](docs/strategies/TravisCiStrategy.md
 
 This strategies are determined by reading your project directory.
 
+## Install globally on unix-based systems (manual)
+
+You can run these commands to easily access ``jolici`` from anywhere on
+your system:
+
+    $ sudo wget https://github.com/jolicode/JoliCi/releases/download/v0.2.2/jolici.phar -O /usr/local/bin/jolici
+
+or with curl:
+
+    $ sudo curl https://github.com/jolicode/JoliCi/releases/download/v0.2.2/jolici.phar -o /usr/local/bin/jolici
+
+then:
+
+    $ sudo chmod a+x /usr/local/bin/jolici
+
+Then, just run ``jolici``.
+
 ## Requirements
 
 * [Docker](http://docker.io) (a recent version is better and encouraged)
